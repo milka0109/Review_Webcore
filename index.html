@@ -1,68 +1,62 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="html" lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Услуги и сервисы</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./fonts/TTLakes/font.css">
+    <link rel="stylesheet" href="./css/main.css">
 
 </head>
 <body class="body">
-    <header class="menu">
-        <input type="image" class="menu__button" src="./img/burger.svg" alt="menu">
-        <div class="menu__divider menu__divider--768"><img class="menu__img-divider" src="./img/divider.svg" ></div>
-        <div class="menu__logo"><img src="./img/group.svg" alt="logo"></div>
-        <input type="image"class="menu__button menu__button--768" src="./img/call.svg" alt="call">
-        <input type="image"class="menu__button menu__button--768" src="./img/chat.svg" alt="chat">
-        <input type="image"class="menu__button menu__button--768" src="./img/profile.svg" alt="profile">
-        <div class="menu__divider"><img class="menu__img-divider" src="./img/divider.svg" ></div>
-        <input type="image"class="menu__button" src="./img/repair.svg" alt="repair">
-        <input type="image"class="menu__button" src="./img/checkstatus.svg" alt="check">
+    <header class="nav">
+        <button type="button" class="button nav__button"><img class="logo" src="./img/burger.svg" alt="menu"></button>
+        <div class="nav__divider nav__divider--768"></div>
+        <img class="nav__logo" src="./img/group.svg" alt="logo">
+        <button type="button" class="button nav__button nav__button--768"><img src="./img/call.svg" alt="call"></button>
+        <button type="button" class="button nav__button nav__button--768"><img src="./img/chat.svg" alt="chat"></button>
+        <button type="button" class="button nav__button nav__button--768"><img src="./img/profile.svg" alt="profile"></button>
+        <div class="nav__divider"></div>
+        <button type="button" class="button nav__button"><img src="./img/repair.svg" alt="repair"></button>
+        <button type="button" class="button nav__button"><img src="./img/checkstatus.svg" alt="check"></button>
     </header>
     
-    <main class="content">
-        <div class="title">
-            <img class="title__highlight" src="./img/highlight.svg" alt="">
-            <h1 class="title__h1">Услуги и сервисы</h1>
-            <div class="title-1120"> 
-                 <span class="title-1120__text"><a href="#">Оставить заявку</a></span> 
-                 <input type="image"class="title-1120__buttton" src="./img/repair.svg" alt="repair">
-                 <span class="title-1120__text"><a href="#">Статус ремонта</a></span> 
-                 <input type="image"class="title-1120__buttton" src="./img/checkstatus.svg" alt="check">
+    <main class="main">
+        <div class="head">
+            <img class="head__highlight" src="./img/highlight.svg" alt="">
+            <h1 class="head__title">Услуги и сервисы</h1>
+            <div class="head-1120"> 
+                 <a class="head-1120__link" href="#">Оставить заявку</a>
+                 <button type="button" class="button head-1120__buttton" ><img src="./img/repair.svg" alt="repair"></button>
+                 <a class="head-1120__link" href="#">Статус ремонта</a>
+                 <button type="button" class="button head-1120__buttton"><img src="./img/checkstatus.svg" alt="check"></button>
             </div>
         </div>
 
-        <ul class="slidebar">
-            <li class="slidebar__item slidebar__item--current"><a href="#">Ремонтируемые устройства</a></li>
-            <li class="slidebar__item"><a href="#">Дополнительные услуги</a></li>
-            <li class="slidebar__item"><a href="#">Цены на услуги</a></li>
-            <li class="slidebar__item"><a href="#">Специальные цены</a></li>
-            <li class="slidebar__item"><a href="#">Адреса сервисных центров</a></li>
-            <li class="slidebar__item"><a href="#">Отзывы</a></li>
+        <ul class="menu">
+            <li class="menu__item menu__item--current"><a class="menu_link" href="#">Ремонтируемые устройства</a></li>
+            <li class="menu__item"><a class="menu_link" href="#">Дополнительные услуги</a></li>
+            <li class="menu__item"><a class="menu_link" href="#">Цены на услуги</a></li>
+            <li class="menu__item"><a class="menu_link" href="#">Специальные цены</a></li>
+            <li class="menu__item"><a class="menu_link" href="#">Адреса сервисных центров</a></li>
+            <li class="menu__item"><a class="menu_link" href="#">Отзывы</a></li>
         </ul>
 
-        <div class="info">
-
-            <div class="fr1">
-
-             <article class="paragraph"> 
-                 <p class="paragraph__item">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-                 <p class="paragraph__item paragraph__item--768"><br>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
-                 <p class="paragraph__item paragraph__item--1120"><br>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-             </article>
-
-             <div class="expand">
-                 <img class="expand__icon" src="./img/expand.svg" alt="">
-                  <span class="expand__text"><a href="#">Читать далее</a></span>
-             </div>
-
+        <div class="content">
+            <div class="text">
+                <p class="paragraph"> 
+                     <span class="paragraph__item">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.<br><br></span>
+                     <span class="paragraph__item paragraph__item--768">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span>
+                     <span class="paragraph__item paragraph__item--1120">, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span>
+                </p>
+                <div class="expand">
+                     <img class="expand__icon" src="./img/expand.svg" alt="">
+                     <span class="expand__text"><a class="expand__link" href="#">Читать далее</a></span>
+                </div>
             </div>
-
-            <img class="fr2" src="./img/main_img.png" alt="CPS">
-
+            <img class="image" src="./img/main_img.png" alt="CPS">
         </div>
+
     </main>
 
 </body>
