@@ -1,0 +1,29 @@
+.image{
+    margin: 0;
+    width: 320px;
+    height: 176px;
+    margin-bottom: 16px;
+}
+
+@media(min-width: 768px){
+    .image{
+        align-self: center;
+        width: 360px;
+        height: 208px;
+        margin-bottom: 40px;
+        margin-right: 40px;
+        margin-left: 0;
+        border-radius: 6px;
+    }
+}
+
+@media(min-width: 1120px){
+    .image{
+        width: 531px;
+        height: 307px;
+        margin-bottom: 49px; 
+        margin-right: 28px;
+        align-self: center;
+        border-radius: 6px;
+    }
+}
