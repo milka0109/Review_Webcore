@@ -1,0 +1,35 @@
+.languages {
+    display: flex;
+    flex-direction: row; 
+    padding-bottom: 32px;
+}
+
+.languages__item {
+    margin-right: 7px;
+    margin-top: 40px;
+    text-decoration: none;
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.languages__item:first-of-type {
+    margin-left: 24px;
+}
+
+.languages__item--current {
+    color: #7E7E82;
+}
+
+.languages__item:hover {
+    color: #FF3E79;
+}
+
+.languages__item:active {
+    color: gray;
+}

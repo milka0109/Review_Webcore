@@ -1,0 +1,16 @@
+.phone {
+    padding-top: 16px;
+    padding-left: 24px;
+    font-family: 'TT Lakes';
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.phone:hover {
+    color: #FF3E79;
+}
