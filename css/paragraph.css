@@ -1,0 +1,60 @@
+.paragraph {
+    font-family: 'TT Lakes';
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+    width: 288px;
+    height: 90px;
+    font-weight: 450;
+    font-style: normal;
+}
+
+.text__paragraph {
+    margin: 16px;
+    margin-top: 0;
+}
+
+.paragraph__item {
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph__item--768 {
+    display: none;
+}
+
+.paragraph__item--1120 {
+    display: none;
+}
+
+@media(min-width: 768px) {
+    .paragraph {
+        width: 312px;
+        height: 160px;
+        
+        line-height: 20px;
+    }
+
+    .text__paragraph {
+        margin-right: 48px;
+        margin-left: 24px;
+        margin-bottom: 10px;
+    }
+
+    .paragraph__item--768 {
+        display: inline;
+    }
+}
+
+@media(min-width: 1120px) {
+    .paragraph__item--1120 {
+        display: inline;
+    }
+
+    .paragraph {
+        width: 490px;
+        height: 160px;
+    }
+    
+}

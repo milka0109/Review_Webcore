@@ -1,0 +1,27 @@
+.body {
+    width: 320px;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+@media(min-width: 768px){
+    .body {
+        width: 768px;
+    }
+}
+
+@media(min-width: 1120px) {
+    .body {
+        width: 1120px;
+    }
+}
+
+.swiper-body{
+    font-family: 'TT Lakes';
+	font-weight: normal;
+	background-color: #F2F2F2;
+	margin: 0 auto;
+	color: #1B1C21;
+}

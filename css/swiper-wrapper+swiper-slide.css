@@ -1,0 +1,16 @@
+.swiper-wrapper .swiper-slide {
+	width: 240px;
+	height: 72px;
+}
+
+@media (min-width: 768px) {
+    .swiper-wrapper .swiper-slide {
+		width: 224px;
+	}
+}
+
+@media (min-width: 1120px) {
+    .swiper-wrapper .swiper-slide {
+		width: 240px;
+	}
+}

@@ -1,0 +1,65 @@
+.swiper-button {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	letter-spacing: inherit;
+	color: inherit;
+	align-items: inherit;
+	text-align: inherit;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.swiper-button__arrow::before {
+	content: "";
+	width: 8px;
+	height: 1px;
+	position: relative;
+	margin-top: 14.75px;
+	margin-left: 15px;
+	display: block;
+	transform: rotate(45deg);
+	border: 1px solid #FF3E79;
+	border-radius: 20px;
+	background-color: #FF3E79;
+}
+
+.swiper-button__arrow::after {
+	content: "";
+	width: 8px;
+	height: 1px;
+	position: relative;
+	margin-top: 2.25px;
+	margin-left: 15px;
+	display: block;
+	transform: rotate(-45deg);
+	border: 1px solid #FF3E79;
+	border-radius: 1px;
+	background-color: #FF3E79;
+}
+
+.swiper-button__main {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-position: center;
+	border: 2px solid #FF3E79;
+}
+
+.button-container {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.button-container {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+	}
+}

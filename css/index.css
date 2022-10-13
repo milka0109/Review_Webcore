@@ -1,0 +1,31 @@
+@import "../fonts/font.css";
+@import "./body.css";
+@import "./nav.css";
+@import "./button.css";
+@import "./main.css";
+@import "./head.css";
+@import "./menu.css";
+@import "./content.css";
+@import "./paragraph.css";
+@import "./expand.css";
+@import "./image.css";
+
+
+@import "./menu_style.css";
+@import "./menu-block.css";
+@import "./menu-header.css";
+@import "./logo.css";
+@import "./menu-main.css";
+@import "./nav-list.css";
+@import "./menu-footer.css";
+@import "./mail.css";
+@import "./phone.css";
+@import "./languages.css";
+
+
+@import "./swiper.css";
+@import "./swiper-container.css";
+@import "./swiper-wrapper+swiper-slide.css";
+@import "./swiper-title.css";
+@import "./expand.css";
+@import "./swiper-button.css";

@@ -1,0 +1,121 @@
+.swiper-container {
+	background-color: #F2F2F2;
+}
+
+.swiper-container__header {
+	background: linear-gradient(270deg, #F8F8F8 0%, #ffffff 98.61%);
+}
+
+.swiper-container__main {
+	overflow: hidden;
+	padding: 16px;
+	padding-right: 0;
+	display: flex;
+}
+
+.swiper-container__list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.swiper-container__item:last-child {
+	padding-right: 16px;
+}
+
+.swiper-container__main::after {
+	content: "";
+	display: block;
+	width: 24px;
+	height: 72px;
+	margin-left: calc(100vw - 24px - 16px);
+	z-index: 1;
+	position: absolute;
+	background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+}
+
+.swiper-container__button {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 240px;
+	height: 72px;
+	background-color: #ffffff;
+	border: 1px solid #EAEAEA;
+	border-radius: 6px;
+	padding: 0 16px;
+}
+
+@media (min-width: 768px) {
+    .swiper-container__header {
+		background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+	}
+
+    .swiper-container__main {
+		padding: 24px;
+	}
+
+	.swiper-container__list {
+		display: flex;
+		height: 160px;
+		flex-wrap: wrap;
+		overflow: hidden;
+		row-gap: 16px;
+		column-gap: 24px;
+		justify-content: space-between;
+	}
+
+	.swiper-container__list::after {
+		content: "";
+		width: 224px;
+		height: 72px;
+		background-color: transparent;
+	}
+
+	.swiper-container__item:last-child {
+		padding-right: 0;
+	}
+
+	.swiper-container__main::after {
+		display: none;
+		background: linear-gradient(270deg, #ff0000 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+	}
+
+	.swiper-container__button,
+	.swiper-container__item{
+		width: 224px;
+	}
+    
+    /*expand button*/
+	.swiper-container__list--opened {
+		height: auto;
+	}
+
+	.button-open {
+		margin-top: 46px;
+	}
+
+	.button-open::before {
+		transform: rotate(180deg);
+	}
+}
+
+@media (min-width: 1120px) {
+    .swiper-container__main {
+		padding: 24px 32px;
+	}
+
+	.swiper-container__list {
+		column-gap: 32px;
+	}
+
+	.swiper-container__list::after {
+		width: 240px;
+	}
+
+	.swiper-container__button,
+	.swiper-container__item, {
+		width: 240px;
+	}
+
+}
